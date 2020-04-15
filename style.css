@@ -5,6 +5,9 @@ body {
   border: 0;
   background-color: 0 0 0 7;
 }
+ p{
+    color: #6e6e6e;
+  }
 
 .banner {
   background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
@@ -16,12 +19,14 @@ body {
 
 .banner h1 {
  margin: 15px 150px 15px;
- padding-bottom: 10px;
+ padding-bottom: 20px;
+
 }
 
 .banner h2 {
   margin: 15px 150px 15px;
-  padding: 5px
+  padding-bottom: 5px
+
 }
 
 .container {
@@ -33,7 +38,7 @@ body {
 .textbox {
   margin-left: 3%;
   margin-right: 50%;
-  background: gray;
+  background: #6e6e6e;
   background-size: cover;
   border-radius: 5px;
   color: white;
@@ -47,4 +52,8 @@ body {
 
 .textbox p {
   padding:20px;
+  color: white;
+}
+q{
+  font-style: italic;
 }
